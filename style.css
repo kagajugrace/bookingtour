@@ -499,9 +499,11 @@ select{
 
   .view img:hover {
 
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow;
 
-    background-color: rgb(78, 34, 9);
+    background-color: rgb(78, 34, 9); */
+    filter: grayscale(1);
+    transform: scale(1.1);
 
   }
 
