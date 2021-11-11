@@ -1,0 +1,610 @@
+*{
+    margin: 0px;
+    padding:0px; 
+    box-sizing: border-box;
+}
+
+
+
+.topnav{
+    /* width:95%; */
+    /* height:100px; */
+    background-color:rgb(104, 0, 0);
+    padding: 15px 10px 15px 50px;
+    display: flex;
+    box-shadow:  10px 10px 10px 10px greenyellow;
+    position: fixed;
+    z-index: 999;
+}
+
+
+.logo{
+    width: 10%;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    
+
+}
+.navbar-right{
+    height: 70px;
+    width: 90%;
+    /* background-color: rgb(70, 205, 223); */
+    overflow: hidden;
+    
+}
+ .topnav a{
+     color: white;
+     padding: 20px;
+     font-size: larger;
+     /* background:green; */
+     float:right;
+     text-decoration: none;
+     height: 100%;
+
+
+ }
+
+ .topnav a:hover{
+     /* background: green; */
+     color: greenyellow;
+     text-decoration: underline;
+ }
+
+ .home-container{
+     width: 100%;
+     height: 110vh;
+     background: rgba(104, 0, 0, 0.39);
+     /* background-color: pink; */
+     /* background-image: url('./img/pexels.jpeg');
+     background-color: rgb(95, 6, 6, 0.6);
+     background-size: cover ; */
+     /* background-repeat: no-repeat; */
+    
+     
+     /* padding: 15px 10px 15px 50px; */
+     
+ }
+
+ /* .home-container img{
+    width: 100%
+
+ } */
+
+ body{
+    
+    background-image: url('./img/pexels.jpeg');
+    
+    background-size: cover ;
+    background-attachment: fixed;
+ }
+
+ .home-container .p1{
+     text-align: center;
+     font-size: 100px;
+     color: white;
+     padding-top:100px;
+
+ }
+ .home-container .p2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+}
+
+.home-container .p3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(95, 6, 6);
+    font-weight: bold;
+
+}
+
+ .home-container .box{
+     width: 30%;
+     height: 40vh;
+     /* background-color: white; */
+     background:rgb(255, 255, 255); 
+     background: rgba(255, 255, 255, 0.3);
+     margin-left: 50px;
+     padding: 25px;
+     box-shadow: 0px 0px 10px 10px rgb(219, 76, 76);
+ }
+
+ .home-container .button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 10px;
+    border:2px solid rgb(95, 6, 6);
+ }
+
+ .group-border{
+     display: flex;
+     margin-left: 200px;
+ }
+
+ .group-tour{
+    display: flex;
+ }
+
+ .border1{
+     width: 30%;
+     height: 10px;
+     background-color: rgb(95, 6, 6);
+     margin: 10px;
+ }
+
+ .border2{
+    width: 15%;
+    height: 10px;
+    background-color: rgb(95, 6, 6);
+    margin: 10px;
+}
+
+.border3{
+    width: 30%;
+    height: 10px;
+    background-color: rgb(95, 6, 6);
+    margin: 10px;
+}
+
+.p4{
+    /* text-align: center; */
+    font-size: 30px;
+    color: rgb(95, 6, 6);
+    margin-left: 50px;
+    font-weight: bold;
+
+
+}
+
+.selection{
+    /* text-align: center; */
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    /* font-weight: bold; */
+
+
+}
+
+.custom-select{
+    position: absolute;
+    background-color: rgb(251, 252, 253);
+    border-color: transparent transparent #fff transparent;
+    /* position: relative; */
+}
+
+.tour-selection-container{
+    width: 100%;
+    height: 300vh;
+    background: white;
+    padding: 10px 40px 10px 40px ;
+}
+
+.book-sort-div{
+    width: 100%;
+    height: 80vh;
+    /* background: blue; */
+    padding-top: 30px;
+    display: flex;
+}
+
+.book-sort{
+    width: 55%;
+    height: 100%;
+    /* background: yellowgreen; */
+}
+
+.book-sort h1{
+    font-size: 50px;
+    color: rgb(95, 6, 6);
+}
+
+.book-sort label{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+select{
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid
+}
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    border:2px solid rgb(95, 6, 6);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(95, 6, 6);
+    font-weight: bold;
+    background: white;
+}
+
+
+
+/* Gallery and tour style */
+
+.galleryTour{
+
+    display:flex;
+
+    width:100%;
+
+ 
+
+}
+
+.galleryImage{
+
+    width:45%;
+
+    padding-left: 30px;
+
+    flex-direction: column;
+
+   
+
+    /* background-color: rosybrown; */
+
+}
+
+.galleryImage h1{
+
+    text-align: left;
+
+    padding: 30px;
+
+    font-size:35px;
+
+    color: rgb(78, 34, 9);
+
+ 
+
+ 
+
+}
+
+.responsive {
+
+    padding: 0 10px;
+
+    float: left;
+
+    width: 46%;   /* adjaste the width  of image according */
+
+  }
+
+.gallery img:hover {
+
+    border: 1px solid #777;
+
+    background-color: black;
+
+  }
+
+.gallery img {
+
+    width: 100%;
+
+    height: 300px;
+
+    object-fit: cover;
+
+    padding:10px;
+
+  }
+
+ 
+
+ 
+
+ 
+
+.tour{
+
+    width:55%;
+
+    padding: 10px;
+
+    padding-right: 30px;
+
+    /* background-color: royalblue; */
+
+}
+
+.tour h1{
+
+    text-align: left;
+
+    font-size:55px;
+
+    font-weight: 600;
+
+    color: rgb(78, 34, 9);
+
+ 
+
+ 
+
+}
+
+.list{
+
+    display:flex;
+
+    border-bottom: 1px solid rgb(78, 34, 9);
+
+    /* align-items: center; */
+
+ 
+
+}
+
+.listitem{
+
+    flex-direction: column;
+
+    padding: 20px;
+
+    color:rgb(78, 34, 9);
+
+    font-size:25px;
+
+ 
+
+}
+
+.ourtour{
+
+    padding-top: 30px;
+
+    height: 260px;
+
+     -webkit-box-shadow: 0 10px 6px -6px #777; /* to have box shadow * */
+
+     -moz-box-shadow: 0 10px 6px -6px #777;
+
+          box-shadow: 0 10px 6px -6px #777;
+
+ 
+
+}
+
+.ourtour img{
+
+    float: left;
+
+    width: 200px;
+
+    height: 220px;
+
+    border-radius: 5px;
+
+    padding-right: 10px;
+
+}
+
+.ourtour p{
+
+    font-size:18px;
+
+    color: rgba(5, 5, 5, 0.678);
+
+    padding:10px;
+
+}
+
+.morebutton{
+
+    margin-left:280px;
+
+    color:rgb(78, 34, 9);
+
+    font-size:18px;
+
+    border: none;
+
+    border-bottom: 4px solid rgb(78, 34, 9);
+
+    background-color: white;
+
+}
+
+.ourtour h2{
+
+   color:rgb(78, 34, 9);
+
+   font-size:26px;
+
+   font-weight: bold;
+
+}
+
+.signup-form{
+    width: 35%;
+    height: 70vh;
+    background: white;
+    margin: 20px 15px 0px 400px;
+    /* margin: auto; */
+    padding: 20px 
+
+    
+}
+
+.signup-form input{
+    width: 70%;
+    float: right;
+    padding: 10px;
+    margin: 5px;
+}
+
+.signup-form label{
+    /* width: 75%; */
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    /* font-size: 20px; */
+}
+
+
+.gallery-view{
+    width: 90%;
+    height: 220vh;
+    background: white;
+    padding: 20px;
+    border: 2px solid rgb(78, 34, 9) ;
+    margin-left: 60px;
+    flex-direction: column;
+    margin-top: 50px;
+    
+    
+}
+
+.gallery-view h1{
+    text-align: left;
+
+    padding: 30px;
+
+    font-size:40px;
+
+    color: rgb(78, 34, 9);
+
+}
+
+.view img {
+
+    width: 100%;
+
+    height: 300px;
+
+    object-fit: cover;
+
+    padding:10px;
+    margin-left: 20px;
+
+  }
+
+  .view img:hover {
+
+    border: 2px solid greenyellow;
+
+    background-color: rgb(78, 34, 9);
+
+  }
+
+  .about{
+      width: 100%;
+      display: flex;
+      background: white;
+      height: 110vh;
+      padding: 30px;
+      
+  }
+
+  .text-about{
+      width: 60%;
+  }
+
+  .text-about h1{
+    /* text-align: center; */
+    font-size: 50px;
+    color: rgb(78, 34, 9);
+    padding-top:180px;
+
+}
+
+.text-about p{
+    font-size:20px ;
+    color: black;
+    /* padding-top:180px; */
+    padding: 10px;
+}
+
+.about img{
+    width: 40%;
+    margin-left: 500px;
+    padding-top:180px;
+}
+
+.contact{
+    width: 70%;
+    display: flex;
+    background: white;
+    height: 100vh;
+    padding: 30px;
+    /* margin-top:100px; */
+    margin-left: 200px;
+    
+}
+
+.text-contact{
+    width: 100%;
+    
+}
+
+.text-contact h1{
+  /* text-align: center; */
+  font-size: 40px;
+  color: rgb(78, 34, 9);
+  padding-top:180px;
+
+}
+
+.text-contact p{
+  font-size:20px ;
+  color: black;
+  /* padding-top:180px; */
+  padding: 10px;
+}
+
+.contact img{
+  width: 80%;
+  /* margin-left: 500px; */
+  padding-top:180px;
+}
+
+.contact-form{
+    width: 100%;
+    height: 50vh;
+    /* background: red; */
+}
+
+.contact-form input{
+    width: 70%;
+    /* float: right; */
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.contact-form label{
+    /* width: 75%; */
+    /* float: left; */
+    padding: 10px;
+    margin-top: 20px;
+    /* font-size: 20px; */
+}
+
+.contact-form textarea{
+    width: 70%;
+    /* float: right; */
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
