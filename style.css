@@ -436,10 +436,13 @@ select{
 .signup-form{
     width: 35%;
     height: 70vh;
-    background: white;
+    background: rgba(255, 255, 255, 0.678);
     margin: 20px 15px 0px 400px;
     /* margin: auto; */
-    padding: 20px 
+    padding: 20px;
+    border-radius: 10px;
+    
+    
 
     
 }
@@ -449,6 +452,8 @@ select{
     float: right;
     padding: 10px;
     margin: 5px;
+    border: 2px  solid black;
+    border-radius: 20px;
 }
 
 .signup-form label{
@@ -608,5 +613,34 @@ select{
     margin: 5px;
     border: none;
     border-bottom: 2px solid black;
+}
+
+.signin-form{
+    width: 35%;
+    height: 60vh;
+    background: rgba(255, 255, 255, 0.678);
+    margin: 20px 15px 0px 400px;
+    /* margin: auto; */
+    padding: 30px ;
+    border-radius: 10px;
+
+    
+}
+
+.signin-form input{
+    width: 70%;
+    float: right;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 2px  solid black;
+}
+
+.signin-form label{
+    /* width: 75%; */
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    /* font-size: 20px; */
 }
 
